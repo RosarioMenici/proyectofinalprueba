@@ -1,0 +1,40 @@
+footer{
+.footer{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background: rgb(17, 17, 17);
+padding: 15px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.icon-elem{
+    list-style: none;
+}
+
+.icon{
+    color: #f7f7f7;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+   
+}
+.icon:hover{
+    transform: translateY(-10px);
+
+}
+}
