@@ -1,0 +1,20 @@
+/*variables*/
+$title-font: 'Playfair Display', serif;
+$blanco: white;
+
+
+.nuestroCatalogo {
+  font: $title-font;
+}
+
+.icon{
+display: inline-block;
+font-size: 32px;
+margin: 0 10px;
+color: $blanco;
+
+
+&:hover{
+    transform: translate(-10px);
+}
+}

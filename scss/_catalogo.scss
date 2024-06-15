@@ -1,0 +1,12 @@
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.card {
+    @include size(100%);
+}
+.slide img {
+    @include size(none, 80vh);
+   
+}
